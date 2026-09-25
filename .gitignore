@@ -1,0 +1,34 @@
+# Competition Dataset & Ground Truth
+student_resource/dataset/
+*.tsv
+*.csv
+*.parquet
+
+# Model Weights, Cache & Generated Artifacts
+*.pkl
+*.pickle
+*.pt
+*.bin
+*.onnx
+*.npy
+*.npz
+*.log
+scratch/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & Credentials
+.env
+*.env
+*.pem
+*.key
+*.token
+credentials.json
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.gemini/
